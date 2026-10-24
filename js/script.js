@@ -329,7 +329,6 @@
     a.href = safe; a.target = "_blank"; a.rel = "noopener noreferrer";
     socialBox.appendChild(a);
   });
-  if (!anySocial) socialBox.appendChild(el("span", "pending", "Social links coming soon"));
 
   /* ---------- Team ---------- */
   SITE.team.forEach((group) => {
