@@ -110,13 +110,13 @@ const SITE = {
       { name: "Chinese Bhel",        category: "food", price: 30, veg: true,  popular: true,  available: true,
         description: "Crispy fried noodles tossed with veggies and tangy Chinese sauces.",
         image: "images/menu/chinese-bhel.jpg" },
-      { name: "Monaco Sandwich",     category: "food", price :40,  veg: true,  popular: true,  available: true,
+      { name: "Monaco Sandwich",     category: "food", price: 40,  veg: true,  popular: true,  available: true,
         description: "Crunchy Monaco biscuits topped with a fresh, zesty filling.",
         image: "images/menu/monaco-sandwich.jpg" },
-      { name: "Mohabbat ka Sharbat", category: "drinks", price : 50, veg: true,  popular: true,  available: true,
+      { name: "Mohabbat ka Sharbat", category: "drinks", price: 50, veg: true,  popular: true,  available: true,
         description: "Chilled rose milk with watermelon — the famous Purani Dilli favourite.",
         image: "images/menu/mohabbat-ka-sharbat.jpg" },
-      { name: "Diwali Ubtan",        category: "eco", price: 100  ,   veg: null,  popular: false, available: true,
+      { name: "Diwali Ubtan",        category: "eco",   price: 100  ,   veg: null,  popular: false, available: true,
         description: "Natural, handmade herbal ubtan for a traditional festive glow.",
         image: "images/menu/diwali-ubtan.jpg" }
     ]
