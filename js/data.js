@@ -86,15 +86,11 @@ const SITE = {
 
   /* ---------- 4. CONTACT & SOCIAL ---------- */
   contact: {
-    phone: "+91 95759 68633",
-    whatsapp: "919575968633",                       // digits only with country code
+    phone: "+91 81494 30360",
+    whatsapp: "918149430360",                       // digits only with country code
     email: "thefestivejunction@gmail.com"
   },
-  social: {
-    instagram: "",   // paste your Instagram page link here when you have one
-    facebook: "",
-    youtube: ""
-  },
+  
 
   /* ---------- 5. MENU ---------- */
   menu: {
