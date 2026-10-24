@@ -212,7 +212,7 @@
     const body = el("div", "card-body");
     const top = el("div", "card-top");
     top.appendChild(el("h3", "", item.name));
-    top.appendChild(el("span", "price", money(item.price)));
+   // top.appendChild(el("span", "price", money(item.price)));
     body.appendChild(top);
     body.appendChild(el("p", "", item.description));
     const badges = el("div", "badges");
