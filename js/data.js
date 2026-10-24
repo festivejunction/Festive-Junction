@@ -177,7 +177,7 @@ const SITE = {
     { group: "Finance", members: [
       { name: "Prathamesh Patil",       photo: "images/team/PrathameshPatil" },
       { name: "Maithili Pawar",         photo: "images/team/MaithiliPawar" },
-      { name: "Preeti Ohol",   photo: "images/team/Preeti Ohol" }
+      { name: "Preeti Ohol",   photo: "images/team/PritiOhol" }
     ]},
     { group: "Decoration", members: [
       { name: "Radha Muley",             photo: "images/team/RadhaMuley" },
@@ -195,7 +195,7 @@ const SITE = {
     { group: "Operations Manager", members: [
       { name: "Priti Ohol",             photo: "images/team/PritiOhol" },
       { name: "Krupa More",             photo: "images/team/KrupaMore" },
-       { name: "Pruthviraj Ozarka",             photo: "images/team/Pruthviraj Ozarka" }
+       { name: "Pruthviraj Ozarka",             photo: "images/team/PruthvirajOzarka" }
     ]}
   ],
 
