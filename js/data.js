@@ -119,8 +119,8 @@ const SITE = {
       { name: "Diwali Ubtan",        category: "eco",   veg: null,  popular: false, available: true,
         description: "Natural, handmade herbal ubtan for a traditional festive glow.",
         image: "images/menu/diwali-ubtan.jpg" },
-       { name: "Your New Product",    category: "eco",   veg: null,  popular: false, available: true,
-  description: "Short description of the product.",
+       { name: "Pipe Cleaner Accessories",    category: "eco",   veg: null,  popular: false, available: true,
+  description: "Colourful, handcrafted pipe cleaner accessories, a plastic-free festive keepsake.",
   image: "images/menu/Pipecleaner.jpg" }
     ]
   },
