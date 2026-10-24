@@ -203,21 +203,7 @@
   (SITE.mission || []).forEach((m) => $("missionList").appendChild(el("li", "", m)));
 
   /* ---------- Sustainability ---------- */
-  if (SITE.sustainability) {
-    $("ecoTitle").textContent = SITE.sustainability.title;
-    $("ecoIntro").textContent = SITE.sustainability.intro;
-    SITE.sustainability.points.forEach((p, i) => {
-      const card = el("article", "eco-card reveal");
-      card.style.setProperty("--d", i * 90 + "ms");
-      card.appendChild(mediaBox(p.image, p.title, artUri(p.title)));
-      const body = el("div", "eco-body");
-      body.appendChild(el("span", "eco-num", String(i + 1).padStart(2, "0")));
-      body.appendChild(el("h3", "", p.title));
-      body.appendChild(el("p", "", p.text));
-      card.appendChild(body);
-      $("ecoGrid").appendChild(card);
-    });
-  }
+  
 
   /* ---------- Menu ---------- */
   function menuCard(item) {
