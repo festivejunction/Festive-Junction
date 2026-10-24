@@ -124,12 +124,18 @@ const SITE = {
 
   /* ---------- 6. GAMES & ACTIVITIES ---------- */
   games: [
-    { name: "Sharbat Pong",
-      description: "Bounce the ball into the sharbat cups and win a prize!",
-      rules: ["Three balls per turn", "Stand behind the line", "Ball must land inside the cup"],
-      howToJoin: "Ask at the stall counter.",
-      prize: "Free sharbat or small gift",
-      image: "images/games/sharbat-pong.jpg" },
+   {
+  name: "Sting Hockey",
+  description: "Grab your stick, aim carefully, and hit the puck into the goal to win a prize!",
+  rules: [
+    "Three attempts per turn",
+    "Hit the puck from the marked starting line",
+    "Score a goal to win a prize"
+  ],
+  howToJoin: "Ask at the stall counter.",
+  prize: "Free Sting drink or small gift",
+  image: "images/games/sting-hockey.jpg"
+},
     { name: "Flip the bottle",
       description: "Flip the bottle and make it land upright to win a prize!",
       rules: ["Three attempts per turn",
