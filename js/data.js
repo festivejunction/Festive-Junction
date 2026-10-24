@@ -166,22 +166,18 @@ const SITE = {
       { name: "Vinay Dharne",          photo: "images/team/Mentor1", role: "Mentor" },
       { name: "Mangesh Suryawanshi",          photo: "images/team/Mentor2", role: "Mentor" },
       { name: "Pranav Kamble",          photo: "images/team/Mentor3", role: "Mentor" },
-      { name: "Akash Mithe",          photo: "images/team/Mentor4", role: "Mentor" },
-      { name: "Pruthviraj Ozarkar",          photo: "images/team/Mentor5", role: "Mentor" },
-      { name: "Prathamesh Patil",          photo: "images/team/Mentor6", role: "Mentor" }
+      { name: "Akash Mithe",          photo: "images/team/Mentor4", role: "Mentor" }
     ]},
     { group: "Leader", lead: true, members: [
       { name: "Jiya Porwal",            photo: "images/team/JiyaPorwal" }
     ]},
     { group: "Product Manager", lead: true, members: [
-      { name: "Gaurav Patil",           photo: "images/team/GauravPatil" },
-      { name: "Pruthviraj Ozarkar",             photo: "images/team/PruthvirajOzarkar" },
-      { name: "Avdhut Patil",           photo: "images/team/AvdhutPatil" }
+      { name: "Gaurav Patil",           photo: "images/team/GauravPatil" }
     ]},
     { group: "Finance", members: [
       { name: "Prathamesh Patil",       photo: "images/team/PrathameshPatil" },
       { name: "Maithili Pawar",         photo: "images/team/MaithiliPawar" },
-      { name: "Tejaswini Palkritwar",   photo: "images/team/TejaswiniPalkritwar" }
+      { name: "Preeti Ohol",   photo: "images/team/Preeti Ohol" }
     ]},
     { group: "Decoration", members: [
       { name: "Radha Muley",             photo: "images/team/RadhaMuley" },
@@ -189,8 +185,8 @@ const SITE = {
       { name: "Pranita Ramgirwar",      photo: "images/team/PranitaRamgirwar" }
     ]},
     { group: "Marketing", members: [
-      { name: "Rohit Pawar",            photo: "images/team/RohitPawar" },
-      { name: "Ritik Raushan",           photo: "images/team/RitikRoshan" }
+      { name: "Ritik Raushan",            photo: "images/team/RohitPawar" },
+      { name: "Rohit Pawar",           photo: "images/team/RitikRoshan" }
     ]},
     { group: "Social Media", members: [
       { name: "Avdhut Patil",           photo: "images/team/AvdhutPatil" },
@@ -198,7 +194,8 @@ const SITE = {
     ]},
     { group: "Operations Manager", members: [
       { name: "Priti Ohol",             photo: "images/team/PritiOhol" },
-      { name: "Krupa More",             photo: "images/team/KrupaMore" }
+      { name: "Krupa More",             photo: "images/team/KrupaMore" },
+       { name: "Pruthviraj Ozarka",             photo: "images/team/Pruthviraj Ozarka" }
     ]}
   ],
 
