@@ -110,15 +110,23 @@
       <div class="container">
         <p class="kicker reveal">Fresh from the kadhai</p>
         <h2 class="section-title reveal">Our Menu</h2>
-        <p class="section-sub reveal">Tap a category to filter. Prices are per serving.</p>
+        <p class="section-sub reveal">Prices are per serving.</p>
         <div class="menu-tools reveal">
-          <div class="filters" id="menuFilters" role="group" aria-label="Menu categories"></div>
           <label class="search">
             <span class="sr-only">Search the menu</span>
             <input type="search" id="menuSearch" placeholder="Search dishes…" autocomplete="off" />
           </label>
         </div>
-        <div class="card-grid" id="menuGrid" aria-live="polite"></div>
+
+        <div class="menu-part" id="menuPartEco">
+          <h3 class="menu-part-title reveal">Eco-Friendly Products</h3>
+          <div class="card-grid" id="menuGridEco" aria-live="polite"></div>
+        </div>
+
+        <div class="menu-part" id="menuPartFood">
+          <h3 class="menu-part-title reveal">Food &amp; Drinks</h3>
+          <div class="card-grid" id="menuGridFood" aria-live="polite"></div>
+        </div>
       </div>
     </section>
 
