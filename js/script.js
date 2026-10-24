@@ -321,7 +321,7 @@
 
   const socialBox = $("socialLinks");
   let anySocial = false;
-  [["Instagram", SITE.social.instagram], ["Facebook", SITE.social.facebook], ["YouTube", SITE.social.youtube]].forEach(([label, url]) => {
+  [["Instagram", (SITE.social || {}).instagram], ["Facebook", (SITE.social || {}).facebook], ["YouTube", (SITE.social || {}).youtube]].forEach(([label, url]) => {
     const safe = safeUrl(url);
     if (!safe) return;
     anySocial = true;
