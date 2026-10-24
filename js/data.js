@@ -48,7 +48,7 @@ const SITE = {
     story:
       "The Festive Junction is a stall where great food, games and festive spirit meet. " +
       "Every dish is prepared fresh by our team, from crispy snacks to creamy desserts. " +
-      "Come say hello, grab a plate and join the fun!  (DUMMY TEXT – replace with your own story.)",
+      "Come say hello, grab a plate and join the fun!",
     // Each highlight can show a small photo: save it as the `image` file name.
     highlights: [
       { title: "Made Fresh",          text: "Every plate is cooked to order, hot off the tawa.",          image: "images/about/fresh.jpg" },
