@@ -129,25 +129,36 @@ const SITE = {
   games: [
    {
   name: "String Hockey",
-  description: "Grab your stick, aim carefully, and hit the puck into the goal to win a prize!",
+  description: "Flick your pucks through the centre opening and clear your side before your opponent to win!",
   rules: [
-    "Three attempts per turn",
-    "Hit the puck from the marked starting line",
-    "Score a goal to win a prize"
+    "Two players compete against each other",
+    "Each player starts with five pucks on their side",
+    "Use your fingers to flick the pucks through the centre opening",
+     "Players can flick their pucks as quickly as possible",
+     "The first player to clear all their pucks to the opponent’s side wins"
   ],
   howToJoin: "Ask at the stall counter.",
-  prize: "Free Sting drink or small gift",
+  prize: "WIN A PRIZE!",
   image: "images/games/sting-hockey.jpg"
 },
     { name: "Flip the bottle",
       description: "Flip the bottle and make it land upright to win a prize!",
-      rules: ["Three attempts per turn",
-    "Flip the bottle from the marked line",
-    "The bottle must land upright on its base"],
+ rules: [
+    "Three attempts per turn",
+    "Flip the bottle from the marked starting line",
+    "The bottle must land upright on its base to score points",
+     "Outer circle: 5 points",
+     "Middle circle: 20 points",
+     "Centre circle: 50 points",
+     "Points from all three attempts will be added to calculate your final score",
+     "Score 25 to 45 points to win a small gift",
+     "A bottle that falls over scores zero points"
+  ],
       howToJoin: "Ask at the stall counter.",
-      prize: "Free drink or small gift",
+      prize: "Small gifts and special prizes based on your score!",
       image: "images/games/game2.jpg" }
   ],
+
 
   /* ---------- 7. TEAM ---------- */
   // Shown in this exact order, group by group.
