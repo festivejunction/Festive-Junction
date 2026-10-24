@@ -182,7 +182,7 @@ const SITE = {
     { group: "Operations Manager", members: [
       { name: "Priti Ohol",             photo: "images/team/PritiOhol" },
       { name: "Krupa More",             photo: "images/team/KrupaMore" },
-       { name: "Pruthviraj Ozarka",             photo: "images/team/PruthvirajOzarka" }
+       { name: "Pruthviraj Ozarkar",      photo: "images/team/PruthvirajOzarkar" }
     ]}
   ],
 
