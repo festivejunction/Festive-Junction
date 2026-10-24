@@ -125,7 +125,7 @@ const SITE = {
   /* ---------- 6. GAMES & ACTIVITIES ---------- */
   games: [
    {
-  name: "Sting Hockey",
+  name: "String Hockey",
   description: "Grab your stick, aim carefully, and hit the puck into the goal to win a prize!",
   rules: [
     "Three attempts per turn",
