@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Festive Junction</title>
+  <meta name="description" content="Menu, games, venue and team of The Festive Junction — a festive, eco-friendly college food stall." />
+  <meta name="theme-color" content="#5a0f2e" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" id="top">
+    <div class="garland" aria-hidden="true"></div>
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand"><span class="brand-mark" aria-hidden="true"></span><span id="brandName">The Festive Junction</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#games">Games</a></li>
+        <li><a href="#venue">Venue</a></li>
+        <li><a href="#team">Team</a></li>
+             </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow" id="heroEvent"></p>
+          <h1 id="heroTitle">The Festive Junction</h1>
+          <p class="hero-tagline" id="heroTagline"></p>
+          <p class="hero-welcome" id="heroWelcome"></p>
+          <div class="hero-buttons">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="#games" class="btn btn-light">Discover Games</a>
+            <a href="#venue" class="btn btn-outline">Find Us</a>
+          </div>
+          <div class="countdown" id="countdown" aria-live="polite"></div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mandala"></div>
+          <div class="hero-photo" id="heroPhoto"></div>
+          <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span>
+        </div>
+      </div>
+      <a href="#featured" class="scroll-hint" aria-label="Scroll down to see more"><span></span></a>
+    </section>
+
+    <!-- ===================== TICKER ===================== -->
+    <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+    <!-- ===================== FEATURED ===================== -->
+    <section class="section theme-saffron" id="featured">
+      <div class="container">
+        <p class="kicker reveal">Must try</p>
+        <h2 class="section-title reveal">Crowd Favourites</h2>
+        <p class="section-sub reveal">Our most-loved dishes — you have to try these.</p>
+        <div class="card-grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section theme-rose" id="about">
+      <div class="container">
+        <p class="kicker reveal">Who we are</p>
+        <h2 class="section-title reveal" id="aboutTitle">Our Story</h2>
+        <p class="about-story reveal" id="aboutStory"></p>
+        <div class="highlight-grid" id="aboutHighlights"></div>
+      </div>
+    </section>
+
+    <!-- ===================== VISION & MISSION ===================== -->
+    <section class="section theme-night" id="vision">
+      <div class="container">
+        <p class="kicker reveal">What drives us</p>
+        <h2 class="section-title reveal">Vision &amp; Mission</h2>
+        <div class="vm-grid">
+          <article class="vm-card reveal">
+            <span class="vm-label">Our Vision</span>
+            <p id="visionText"></p>
+          </article>
+          <article class="vm-card reveal">
+            <span class="vm-label">Our Mission</span>
+            <ul class="vm-list" id="missionList"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MENU ===================== -->
+    <section class="section theme-cream" id="menu">
+      <div class="container">
+        <p class="kicker reveal">Fresh from the kadhai</p>
+        <h2 class="section-title reveal">Our Menu</h2>
+        <p class="section-sub reveal">Tap a category to filter. Prices are per serving.</p>
+        <div class="menu-tools reveal">
+          <div class="filters" id="menuFilters" role="group" aria-label="Menu categories"></div>
+          <label class="search">
+            <span class="sr-only">Search the menu</span>
+            <input type="search" id="menuSearch" placeholder="Search dishes…" autocomplete="off" />
+          </label>
+        </div>
+        <div class="card-grid" id="menuGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===================== SUSTAINABILITY ===================== -->
+    <section class="section theme-leaf" id="eco">
+      <div class="container">
+        <p class="kicker reveal">Celebrate responsibly</p>
+        <h2 class="section-title reveal" id="ecoTitle">Eco-Friendly &amp; Sustainable</h2>
+        <p class="section-sub reveal" id="ecoIntro"></p>
+        <div class="eco-grid" id="ecoGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== GAMES ===================== -->
+    <section class="section theme-indigo" id="games">
+      <div class="container">
+        <p class="kicker reveal">Play &amp; win</p>
+        <h2 class="section-title reveal">Games &amp; Activities</h2>
+        <p class="section-sub reveal">Eat, play and win exciting prizes!</p>
+        <div class="game-grid" id="gamesGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== VENUE ===================== -->
+    <section class="section theme-marigold" id="venue">
+      <div class="container">
+        <p class="kicker reveal">See you there</p>
+        <h2 class="section-title reveal">Find Us Here</h2>
+        <div class="venue-card reveal">
+          <div class="venue-info">
+            <h3 id="venueEvent"></h3>
+            <ul class="info-list" id="venueList"></ul>
+            <div class="hero-buttons" id="venueButtons"></div>
+          </div>
+          <div class="venue-contact">
+            <h3>Contact Us</h3>
+            <ul class="info-list" id="contactList"></ul>
+            <div class="social" id="socialLinks"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TEAM ===================== -->
+    <section class="section theme-blush" id="team">
+      <div class="container">
+        <p class="kicker reveal">The people</p>
+        <h2 class="section-title reveal">Meet Our Team</h2>
+        <p class="section-sub reveal">The people behind every plate.</p>
+        <div class="team-grid" id="teamGrid"></div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+      </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong class="footer-brand" id="footerBrand">The Festive Junction</strong>
+        <p id="footerVenue"></p>
+      </div>
+      <p id="footerNote"></p>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><span aria-hidden="true"></span></button>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close photo">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous photo">&lsaquo;</button>
+    <figure>
+      <img id="lbImg" src="" alt="" />
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next photo">&rsaquo;</button>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
