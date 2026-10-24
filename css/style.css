@@ -211,7 +211,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.12; margin: 0 0 .
 .card-body { padding: 1.2rem 1.3rem 1.4rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
 .card-top { display: flex; justify-content: space-between; gap: .75rem; align-items: baseline; }
 .card-top h3 { font-size: 1.3rem; margin: 0; color: var(--maroon); }
-.price { font-family: var(--font-head); font-weight: 900; font-size: 1.3rem; color: var(--saffron); white-space: nowrap; }
+
 .card-body p { margin: 0; color: var(--muted); font-size: .93rem; flex: 1; }
 .badges { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .4rem; }
 .badge { font-size: .72rem; font-weight: 800; letter-spacing: .04em; padding: .28rem .7rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .35rem; }
