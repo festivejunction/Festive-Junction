@@ -70,20 +70,7 @@ const SITE = {
   ],
 
   /* ---------- 2c. ECO-FRIENDLY & SUSTAINABLE ---------- */
-  sustainability: {
-    title: "Eco-Friendly & Sustainable",
-    intro: "Our festival is green at heart. From the plate in your hand to the prize you win, every choice at our stall is made to reduce waste and respect the planet.",
-    points: [
-      { title: "Sustainable Products", image: "images/eco/products.jpg",
-        text: "We use areca-leaf and sugarcane-bagasse plates, wooden spoons, paper straws and cloth banners. Nothing at our counter is single-use plastic, and our decorations are reused or made from recycled materials." },
-      { title: "Food Items", image: "images/eco/food.jpg",
-        text: "Our dishes are cooked fresh in measured batches so very little goes to waste. We source vegetables locally, use seasonal ingredients and keep separate bins so leftover food can be composted." },
-      { title: "Drinks", image: "images/eco/drinks.jpg",
-        text: "Chai is served in clay kulhads, lemonade and lassi in compostable cups with paper straws. Bring your own bottle or cup for a refill and we'll thank you with a small discount." },
-      { title: "Games", image: "images/eco/games.jpg",
-        text: "Our game props are handmade from cardboard, old bottles and scrap wood. Prizes are useful, low-waste goodies — food coupons, plantable seed cards and handmade gifts instead of plastic toys." }
-    ]
-  },
+
 
   /* ---------- 3. EVENT / VENUE ---------- */
   event: {
