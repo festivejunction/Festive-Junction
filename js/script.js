@@ -237,42 +237,25 @@
     card.addEventListener("mouseleave", () => { card.style.transform = ""; });
   }
 
-  const menuGrid = $("menuGrid");
-  const filtersBox = $("menuFilters");
   const searchBox = $("menuSearch");
-  let activeCategory = "all";
+  const menuParts = [
+    { grid: $("menuGridEco"),  part: $("menuPartEco"),  match: (i) => i.category === "eco" },
+    { grid: $("menuGridFood"), part: $("menuPartFood"), match: (i) => i.category !== "eco" }
+  ];
 
   function renderMenu() {
-    menuGrid.innerHTML = "";
     const q = (searchBox.value || "").trim().toLowerCase();
-    const items = SITE.menu.items.filter((i) =>
-      (activeCategory === "all" || i.category === activeCategory) &&
-      (!q || (i.name + " " + i.description).toLowerCase().includes(q)));
-    if (!items.length) menuGrid.appendChild(el("p", "empty-note", "Nothing here yet — check back soon!"));
-    items.forEach((i) => menuGrid.appendChild(menuCard(i)));
-    observeReveals();
-  }
-
-  function renderFilters() {
-    const all = [{ id: "all", label: "All" }].concat(SITE.menu.categories);
-    all.forEach((cat) => {
-      const count = cat.id === "all" ? SITE.menu.items.length : SITE.menu.items.filter((i) => i.category === cat.id).length;
-      const btn = el("button", "filter-btn", cat.label);
-      btn.appendChild(el("span", "count", String(count)));
-      btn.type = "button";
-      btn.setAttribute("aria-pressed", cat.id === activeCategory ? "true" : "false");
-      btn.addEventListener("click", () => {
-        activeCategory = cat.id;
-        filtersBox.querySelectorAll(".filter-btn").forEach((b) => b.setAttribute("aria-pressed", "false"));
-        btn.setAttribute("aria-pressed", "true");
-        renderMenu();
-      });
-      filtersBox.appendChild(btn);
+    menuParts.forEach((p) => {
+      p.grid.innerHTML = "";
+      const items = SITE.menu.items.filter((i) =>
+        p.match(i) && (!q || (i.name + " " + i.description).toLowerCase().includes(q)));
+      if (!items.length) p.grid.appendChild(el("p", "empty-note", "Nothing here yet — check back soon!"));
+      items.forEach((i) => p.grid.appendChild(menuCard(i)));
     });
+    observeReveals();
   }
   searchBox.addEventListener("input", renderMenu);
 
-  renderFilters();
   renderMenu();
 
   const featured = SITE.menu.items.filter((i) => i.popular && i.available !== false);
