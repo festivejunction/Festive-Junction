@@ -38,8 +38,8 @@ const SITE = {
   /* ---------- 1. BASIC INFO ---------- */
   stallName: "The Festive Junction",
   tagline: "Where food meets festival fun",        // DUMMY – change to your own slogan
-  heroImage: "images/heroop.jpg",                    // optional big background photo (ignored if missing)
-  heroPlate: "images/hero-plateop.jpg",              // optional round food photo on the right of the hero
+  heroImage: "images/hero.jpg",                    // optional big background photo (ignored if missing)
+  heroPlate: "images/hero-plate.jpg",              // optional round food photo on the right of the hero
   welcome: "Welcome! Come hungry, leave happy. Explore our menu, play our games and meet the team behind the stall.",
 
   /* ---------- 2. ABOUT ---------- */
