@@ -196,7 +196,7 @@ const SITE = {
       { name: "Sujal Pol",              photo: "images/team/SujalPol" }
     ]},
     { group: "Operations Manager", members: [
-      { name: "Priti Ohol",             photo: "images/team/PritiOhol" },
+      { name: "Tejaswini Palkritwar",             photo: "images/team/TejaswiniPalkritwar" },
       { name: "Krupa More",             photo: "images/team/KrupaMore" },
        { name: "Pruthviraj Ozarkar",      photo: "images/team/PruthvirajOzarkar" }
     ]}
